@@ -1,10 +1,10 @@
 /*
 * Author: GRANINE
 * Date Start: Oct 31, 2020
-* Last Modify: Dec, 24, 2020
+* Last Modify: Jan, 02, 2022
 * Drop Data time: Dec, 24, 2020, GLOBAL server
 * Purpuse:	1: calculate sanity return per stage based on document input or keyboard input and print to document
-*			2: Calculate store item sanity efficiency -UD
+*		2: Calculate store item sanity efficiency -UD
 *
 * Tasks remain:
 *	3. Create new calculation mode for different certificate stores
@@ -157,29 +157,6 @@
 #define RESFOURG 0
 #define RESFOURB 0
 #define RESFOURP 0
-
-//sanity Calc functions
-int stageSanityCalc(int mode);
-void inputChecker(char itemReport[20]);
-int fullNamePrinter(FILE* SanityCalcHistory, char itemReport[20]);
-double averageSanityFinder(char itemReport[20]);
-double netSanity(double sanityReturn[20], int itemCount);
-
-//shop functions
-int shopCalculator(void);
-
-void greenStore(char input[20]);
-void yellowStore(char input[20]);
-void redStore(char input[20]);
-void orangeStore(char input[20]);
-void fStore(char input[20]);
-void holder1Store(char input[20]);
-void holder2Store(char input[20]);
-
-int storePromptReader(char input[20]);
-void efficiencyOrderer(int size, char strItm[][12], double strCost[], int efficiencyOrder[]);
-
-
 
 int main(void) {
 	int mode = 1;
