@@ -1,7 +1,7 @@
 /*
 * Author: GRANINE 
 * Date Start: Oct 31, 2020
-* Last Modify: Jan, 02, 2022
+* Last Modify: Mar, 17, 2022
 * Drop Data time: Dec, 24, 2020, GLOBAL server
 * Purpuse:	1: calculate sanity return per stage based on document input or keyboard input and print to document
 *		2: Calculate store item sanity efficiency -UD
